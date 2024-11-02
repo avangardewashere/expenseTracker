@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  height:100%;
+  img {
+    width: 24rem;
+    aspect-ratio: 1;
+  }
+
+  span {
+    font-size: 16rem;
+    color:#242D35;
+    font-weight: 700
+    ;
+  }
+}
+.direction {
+  display: flex;
+  flex-direction: column !important;
+  img{
+    width:128rem;
+  }
+  span{
+    font-size:24rem;
+    font-weight: 700;
+  }
+}

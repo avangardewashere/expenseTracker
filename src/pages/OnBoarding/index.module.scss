@@ -1,0 +1,62 @@
+.container {
+  font-size: 12rem;
+  width: 390rem;
+  background: hsl(200, 9%, 94%);
+  height: 100vh;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  padding-top: 76rem;
+  flex-direction: column;
+  gap: 20rem;
+  .swiperContent {
+    height: 440rem;
+    width: 375rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40rem;
+    padding-bottom: 60rem;
+    img {
+      width: 251rem;
+      height: 320rem;
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 12rem;
+      span:first-child {
+        font-size: 18rem;
+        font-weight: 700;
+        color: #242d35;
+      }
+      span:last-child {
+        width:80%;
+        font-size: 16rem;
+        font-weight: 400;
+        color: #6b7580;
+      }
+    }
+  }
+
+  .buttonSlide {
+    width: 327rem;
+    height: 48rem;
+    margin-inline: auto;
+    border-radius: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 12rem 24rem 0rem #1d41f9;
+    background: linear-gradient(60deg, #2fdaff, #0e33f3);
+    font-size: 16rem;
+    color: white;
+    font-weight: 600;
+    line-height: 24rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
