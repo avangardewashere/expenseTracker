@@ -1,3 +1,4 @@
+import AuthenticationPage from "../pages/Authentication";
 import Homepage from "../pages/Homepage";
 import OnBoarding from "../pages/OnBoarding";
 
@@ -9,6 +10,9 @@ const routes = [
   {
     path: "/home",
     element: <Homepage />,
+  },  {
+    path: "/auth",
+    element: <AuthenticationPage />,
   },
 ];
 

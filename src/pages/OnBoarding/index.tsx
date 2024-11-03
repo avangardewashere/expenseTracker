@@ -45,7 +45,7 @@ const OnBoarding = memo(() => {
   };
 
   const letsGoHome = () => {
-    navigate("/home");
+    navigate("/auth");
   };
 
   return (
