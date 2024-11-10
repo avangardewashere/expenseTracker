@@ -1,9 +1,31 @@
 .container{
     width:390rem;
     background:white;
-    height:100vh;
+   min-height:100vh;
    display:flex;
    align-items:center;
    flex-direction: column;
-   padding:70rem 0 0 0;
+ padding:70rem 0 0 0;
+
+ .inputContainer{
+    background:#F5F6F7;
+    border:#DCDFE3 solid 1rem;
+    color:#494C4F;
+    display:flex;
+    align-items: center;;
+    margin-block:4rem;
+    border-radius: 12rem;
+    padding:12rem 16rem;
+    height:54rem;
+    
+    img{
+       
+        width:18rem;
+        height:20rem;
+    }    
+    .inputStyle{
+        font-size:12rem !important;
+        background:transparent !important;
+    }
+ }
 }

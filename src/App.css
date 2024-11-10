@@ -12,3 +12,13 @@ html {
   height: 100vh;
   
 }
+
+.adm-input,.adm-list-item-content,.adm-list-item{
+  background:transparent !important;
+  position: relative;
+}
+
+.adm-form-item-feedback-error{
+  position: absolute;
+  top:28rem;;
+}

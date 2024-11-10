@@ -13,9 +13,9 @@ const Logo: React.FC<LogoProps> = memo(({showName=true, direction = "row",cHeigh
  
   return (
     <div className={clsx(style.container,direction === "column" && style.direction,  )} style={{height:cHeight ? `${cHeight}rem` :"100%"}}>
-      <img src={logoImg} style={{width:size? `${size}rem`:""}} alt="expense-logo-img" />
-      {showName && <span>Expense Tracker</span>}
-    </div>
+      <img src={logoImg} style={{width:size? `${size}rem`:""}} alt="expense-logo-img" />*
+      {showName && <span style={{fontSize:size ? `${size/2.75}rem`:"" }}>Expense Tracker</span>}
+    </div> 
   );
 });
 
